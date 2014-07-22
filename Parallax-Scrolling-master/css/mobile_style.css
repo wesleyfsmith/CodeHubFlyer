@@ -1,0 +1,148 @@
+body, html { background: white; width: 100%; font-family: 'DinPro'; font-weight: bold;}
+a {color: white; text-decoration: none;}
+h1 {margin-top: 0px !important;}
+
+@font-face {
+    font-family: "DinPro";
+    src: url("fonts/DINPro-Light.otf");
+}
+
+ul
+{
+    list-style-type: none;
+    padding-left: 0px !important;
+    margin: 0 auto !important;
+    width: 85%;
+}
+
+/* Universal Classes */
+.lineBreak {height: 1px; background-color: white; width: 80%; margin: 0 auto;}
+
+.imageDivider {
+    height: 200px;
+    margin: 0px;
+    position: relative;
+} .imageDivider img {
+    height: 100%;
+    }
+#firstimage {
+    background: url("../images/image3_scaled.png");
+    background-size: 100%;
+}
+#secondimage {background: url("../images/image1backup.png"); background-size: 150%;}
+#thirdimage {background: url("../images/apply_now_image.jpg");background-size: 100%;}
+#fourthimage {background: url("../images/splash_big.jpg"); background-size: 150%;}
+#apply { background: url(../images/hub_image_1.jpg); background-size: 100%;}
+
+
+
+.section {
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} .section h1 {
+    /*padding-top: 10px;*/
+  }
+  .section .lineBreak {
+      background-color: black;
+  }
+
+/* Sections */
+#splash { color: white; height: 270px; text-align: center; background-color: black; padding-top: 20px;
+    padding-bottom: 30px; }
+#splash .splashmain { margin: 0 auto; }
+#splash .splashHead {font-size: 30px; }
+#splash .byImpactHub {width: 100%;}
+/*#splash .byLine {margin-left: auto; margin-right: auto; display: block; width: 10%; margin-bottom: 10px;}*/
+#splash img {margin: auto; width: 50%; display: block;}
+
+#coursedeets {
+    background-color: white;
+    text-align: center;
+    padding-bottom: 170px;
+}
+#coursedeets p {width: 85%; margin-left: auto; margin-right: auto; margin-bottom: 20px;}
+#coursedeets .courseDeetsDiv {
+    width: 50%;
+    margin: 0 auto;
+    float: left;
+    padding-top: 20px;
+}
+
+#developSkills {
+    background-color: white;
+} #developSkills .subDetails {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+  }
+  #developSkills img {
+      width: 80%;
+  }
+  #developSkills .wrapper {
+      margin-top: 20px;
+  }
+  #developSkills .skillDiv {
+      margin-top: 20px;
+  }
+
+#schedule .wrapper {
+    width: 100%;
+}
+#schedule .subDetails {
+    width: 85%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+#schedule h3 {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#collab .deets {
+    width: 85%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+#collab .detail {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+} #collab .lineBreak {
+    margin-bottom: 20px;
+  }
+
+#faqs {
+    text-align: left;
+} #faqs h1 {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  #faqs dl {
+    margin-top: 0px;
+  }
+  #faqs dt {
+      font-size: 20px;
+      padding-bottom: 20px;
+      padding-top: 20px;
+      width: 90%;
+      margin: 0 auto;
+  }
+  #faqs dd {
+      width: 80%;
+      margin: 0 auto;
+  }
+
+#spacer {
+    position: absolute;
+    height: 130px;
+    width: 100%;
+}
+
+#footer {width: 100%; bottom: 0; position: fixed; height: 130px; background-color: rgba(0, 0, 0, 0.4);}
+#footer .applybutton {border-radius: 9px; display: block; width: 65%; font-size: 24px; background: white; text-align: center; margin-left: auto; margin-right: auto; margin-top: 14px; height: 80%;}
+#footer a {color: black;}
+#footer .applicationClose {font-size: 14px; color: black;}
